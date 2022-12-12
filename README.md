@@ -1,5 +1,5 @@
 # Day 09 - Go Intensive
-## Adventure, Danger and Cocoa
+## Daily Routine
 
 ## Chapter I
 ### General rules
