@@ -22,8 +22,11 @@ func sleepSort(array []int) chan int {
 		go sleepWrite(i, c, &group)
 	}
 
-	group.Wait()
-	close(c)
+	go func() {
+		group.Wait()
+		close(c)
+	}()
+
 	return c
 }
 
